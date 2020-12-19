@@ -1,7 +1,5 @@
 # Provisioning VPC, ECS and ALB using Terraform
 
-![](https://github.com/MarkWahba-git/challenge-ecr-terraform/workflows/Terraform/badge.svg)
-
 This is the example of creating a simple infrastructure using Terraform and AWS cloud provider. It consists of:
 - Virtual Private Cloud (VPC) with 3 public subnets in 3 availability zones
 - Elastic Container Service (ECS)
@@ -10,7 +8,7 @@ This is the example of creating a simple infrastructure using Terraform and AWS 
 
 ## How to create the infrastructure?
 This example implies that you have already AWS account and Terraform CLI installed.
-1. `git clone https://github.com/MarkWahba-git/challenge-ecr-terraform-.git`
+1. `git clone https://github.com/MarkWahba-git/Code-Challenge-ECS-Terraform-.git`
 2. [Install terraform](https://www.terraform.io/intro/getting-started/install.html) (alternatively - [run terraform via docker](https://hub.docker.com/r/hashicorp/terraform/) - note they don't mention there to mount the directory with TF templates to the container, don't forget that)
 3. Update variables.tf according to your environment
 4. terraform init
